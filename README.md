@@ -1,11 +1,12 @@
 # CMD命令总结
 ## 回显控制
-- echo off #下一行开始关闭回显</br>
-- echo on #下一行开始打开回显</br>
-- @echo off #本行开始关闭回显</br>
-- echo #显示回显状态</br>
-- echo. #输出一个回换行符</br>
-- echo hello world #输出hello world</br>
+- echo off #下一行开始关闭回显
+- echo on #下一行开始打开回显
+- @echo off #本行开始关闭回显
+- echo #显示回显状态
+- echo. #输出一个回换行符
+- echo hello world #输出hello world
+</br>
 **注意：默认回显是打开的**
 ## @命令
 @命令：echo off相象，但它是加在其它命令行的最前面，表示运行时不显示命令行本身。
