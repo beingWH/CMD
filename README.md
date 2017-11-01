@@ -6,7 +6,8 @@
 - echo #显示回显状态
 - echo. #输出一个回换行符
 - echo hello world #输出hello world
->**注意：默认回显是打开的**
+
+**注意：默认回显是打开的**
 
 ## @命令
 @命令：echo off相象，但它是加在其它命令行的最前面，表示运行时不显示命令行本身。
@@ -32,7 +33,6 @@ cd d:\mongodb\bin
 mongo
 ```
 ## Examples
->
 ```
 @echo off
 rem 进入D盘
@@ -50,7 +50,8 @@ mongo
 pause
 ```
 
-以上两段效果相同，如下截图</br>
+以上两段效果相同，如下截图
+
 ![](https://ip.freep.cn/593463/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E7%A8%8B%E5%BA%8F%E5%9B%BE%E7%89%87/cmd1.PNG)
 ## CLS命令
 清屏
