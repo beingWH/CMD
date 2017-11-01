@@ -23,6 +23,7 @@ pause命令用于暂停CMD命令提示符
 ```
 d:
 cd \mongodb\bin
+mongo
 ```
 **特别注意：**经测试，以下操作无效，因为执行mongo操作时，未进入d:\mongodb\bin
 ```
@@ -49,3 +50,24 @@ pause
 ```
 以上两段效果相同，如下截图</br>
 ![](https://ip.freep.cn/593463/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E7%A8%8B%E5%BA%8F%E5%9B%BE%E7%89%87/cmd1.PNG)
+## CLS命令
+清屏
+## TITLE命令
+- title 新标题 #可以看到cmd窗口的标题栏变了
+## VER命令
+显示系统版本
+## DATE命令
+- date #显示当前日期，并提示输入新日期，按"回车"略过输入
+- date/t #只显示当前日期，不提示输入新日期
+- time   #显示当前时间，并提示输入新时间，按"回车"略过输入
+- time/t #只显示当前时间，不提示输入新时间
+## 卷标命令
+- vol #显示卷标
+- label #显示卷标，同时提示输入新卷标
+- label c:system #设置C盘的卷标为 system
+## MD命令
+- md abc #在当前目录里建立子目录 abc
+- md d:\a\b\c #如果 d:\a 不存在，将会自动创建
+## RD命令
+- rd abc #删除当前目录里的 abc 子目录，要求为空目录
+- rd /s/q d:\temp #删除 d:\temp 文件夹及其子文件夹和文件，不需要按 Y 确认
